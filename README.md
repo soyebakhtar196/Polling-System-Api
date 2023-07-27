@@ -45,6 +45,15 @@ Simple Polling API for raising the questions and its answer options using JavaSc
 
     This project is completely developed and has functionality, however
     some improvements can be made.
+
+## API URL
+    - /questions/create (To create a question)
+    - /questions/:id/options/create (To add options to a specific question)
+    - /questions/:id/delete (To delete a question)
+    - /options/:id/delete (To delete an option)
+    - /options/:id/add_vote (To increment the count of votes)
+    - /questions/:id (To view a question and it’s options)
+    
 ## Folder Structure
 ```
 CSV_Upload/
